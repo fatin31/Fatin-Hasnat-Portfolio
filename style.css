@@ -36,6 +36,7 @@
 .left-cont {
     background-color: black;
     width: 70%;
+    padding-left: 3rem;
 }
 
 .right-cont {
@@ -53,6 +54,91 @@
     .left-cont,
     .right-cont {
         width: 100%;
-        /* Take up full width on smaller screens */
+        align-items: center;
+        display: flex;
+
     }
+}
+
+.left-cont,
+.right-cont {
+    align-items: center;
+    display: flex;
+}
+
+.icons .fa-brands {
+    color: aliceblue;
+    font-size: 1.8rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.content {
+    color: aliceblue;
+    padding-left: 2rem;
+}
+
+.content h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+
+}
+
+.content h1 {
+    font-size: 4rem;
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content h2 p1 {
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aqua;
+}
+
+.btn-cont button {
+    margin-right: 40px;
+}
+
+.icons .fa-brands:hover {
+    cursor: pointer;
+    background: linear-gradient(#fff, #3877ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.design .circle {
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+
+}
+
+.circle:nth-child(1) {
+    background: red;
+    width: 20rem;
+
+}
+
+.circle:nth-child(2) {
+    background: black;
+    width: 15rem;
+
 }
