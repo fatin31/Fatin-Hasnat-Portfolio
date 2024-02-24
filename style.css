@@ -22,7 +22,7 @@
     align-items: center;
     position: fixed;
     background-color: #333;
-    /* Added a background color for better visibility */
+
 }
 
 .navlist li {
@@ -153,7 +153,7 @@
 
 .circle:nth-child(2) {
     width: 30rem;
-    background-image: url("images/fatin.jpg");
+    background-image: url("images/f1.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     box-shadow:
