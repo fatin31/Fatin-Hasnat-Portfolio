@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navlist {
+    display: flex;
+    gap: 3.5rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    z-index: 1000;
+    /* Added z-index to ensure the navbar is above other elements */
+}
+
+.navlist li {
+    display: inline;
+}
+
+.navlist li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(249, 233, 201);
+}
+
+.contact-sec {
+    background-color: #f4f4f4;
+    padding: 80px 0 50px;
+    /* Adjusted padding to create space between navbar and content */
+}
+
+.about-section h2 {
+    color: #333;
+}
+
+.about-section .highlight {
+    color: #04AA6D;
+}
+
+.about-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+}
+
+.about-section h3 {
+    color: #04AA6D;
+    margin-top: 20px;
+}
+
+.contact-link {
+    color: #04AA6D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}

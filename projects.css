@@ -1,36 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-
-* {
+body {
     margin: 0;
     padding: 2rem;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
 }
 
-dl {
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navlist {
+    display: flex;
+    gap: 3.5rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* Remove default margin */
+}
+
+.navlist li {
+    display: inline;
+}
+
+.navlist li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(249, 233, 201);
+}
+
+.projects-section {
+    background-color: #f4f4f4;
+    padding: 80px 0 50px;
+    /* Adjusted padding to create space between navbar and projects */
+}
+
+.projects-section dl {
     margin-bottom: 20px;
 }
 
-dt {
+.projects-section div {
+    margin-bottom: 20px;
+}
+
+.projects-section dt {
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-dd {
-    margin-bottom: 10px;
-}
-
-/* Style for Description List */
-dl div {
-    margin-bottom: 20px;
-}
-
-dl div dt {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-dl div dd {
+.projects-section dd {
     margin-bottom: 10px;
 }
 
@@ -48,7 +73,6 @@ dl div dd {
     transition-duration: 0.4s;
     cursor: pointer;
 }
-
 
 .button5 {
     background-color: white;
