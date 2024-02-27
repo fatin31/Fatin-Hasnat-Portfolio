@@ -73,3 +73,17 @@ body {
 .contact-link:hover {
     text-decoration: underline;
 }
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-gallery img {
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
