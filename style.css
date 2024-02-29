@@ -55,7 +55,8 @@
 
     .left-cont {
         width: 100%;
-        padding-left: 0;
+        padding-left: 1rem;
+        /* Adjusted padding for better spacing */
     }
 
     .right-cont {
@@ -78,22 +79,26 @@
 
     .content {
         padding: 1rem;
-
+        text-align: center;
+        /* Centered text for better visibility */
     }
 
     .content h1 {
         font-size: 3rem;
-        /* Adjusted font size for better readability */
+        margin-bottom: 0.5rem;
+        /* Adjusted margin for better spacing */
     }
 
     .content h2 {
         font-size: 1.2rem;
-        /* Adjusted font size for better readability */
+        margin-bottom: 0.5rem;
+        /* Adjusted margin for better spacing */
     }
 
     .content h2 p1 {
         font-size: 1.8rem;
-        /* Adjusted font size for better readability */
+        margin-bottom: 1rem;
+        /* Adjusted margin for better spacing */
     }
 
     .btn-cont button {
@@ -103,9 +108,9 @@
 
     .design .circle {
         width: 100%;
-
     }
 }
+
 
 
 .left-cont,
@@ -188,4 +193,46 @@
 .navlist li a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+@media screen and (min-width: 769px) {
+
+    /* Media query for screens larger than 768px */
+    .portfolio-cont {
+        flex-direction: row;
+    }
+
+    .left-cont {
+        width: 70%;
+        padding-left: 3rem;
+    }
+
+    .right-cont {
+        width: 30%;
+    }
+
+    .navlist {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .navlist li {
+        margin-bottom: 0;
+    }
+
+    .icons {
+        gap: 2rem;
+    }
+
+    .content {
+        padding: 2rem;
+    }
+
+    .btn-cont button {
+        margin-right: 20px;
+    }
+
+    .design .circle {
+        width: auto;
+    }
 }
